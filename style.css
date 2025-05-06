@@ -1,0 +1,38 @@
+body {
+    font: 
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+:root {
+    color-scheme: light dark;
+    --light-bg: #E1E2E7;
+    --light-color: black;
+    --dark-bg:#1A1B26;
+    --dark-color: #E1E2E7;
+  }
+  
+* {
+    background-color: light-dark(var(--light-bg), var(--dark-bg));
+    color: light-dark(var(--light-color), var(--dark-color));
+}
+
+#header-container {
+    padding: 32px;
+    margin: 16px;
+}
+
+#links-container {
+    margin: 8px;
+}
+
+#info-para {
+    margin: 8px;
+}
