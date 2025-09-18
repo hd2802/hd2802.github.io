@@ -1,0 +1,12 @@
+body {
+    font-family: 'Google Sans Code', monospace;
+}
+
+.outer-div {
+    margin: 32px;
+}
+
+.main-content {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
